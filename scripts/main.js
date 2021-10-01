@@ -22,10 +22,8 @@ function processData(data) {
   confirmed.innerHTML = `Confimed: ${latest.confirmed}`;
   death.innerHTML = `Death:${latest.deaths}`;
   recovered.innerHTML = `Recovered: ${latest.recovered}`;
-  setTimeout(() => {
-    loader.style.display = "none";
-    mainContainer.style.display = "flex";
-  }, 2000);
+  loader.style.display = "none";
+  mainContainer.style.display = "flex";
 }
 
 function extractMauritiusData(data) {
