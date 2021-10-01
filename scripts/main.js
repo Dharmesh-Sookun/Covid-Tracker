@@ -5,7 +5,7 @@ const confirmed = document.querySelector("#confirmed");
 const death = document.querySelector("#deaths");
 const recovered = document.querySelector("#recovered");
 
-mainContainer.style.display = "none";
+// mainContainer.style.display = "none";
 
 function getData() {
   const API_ENDPOINT = "https://pomber.github.io/covid19/timeseries.json";

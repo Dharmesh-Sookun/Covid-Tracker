@@ -60,7 +60,7 @@ body {
 
   padding: 10vh 20vw;
 
-  display: flex;
+  display: none;
 
   flex-direction: column;
 
